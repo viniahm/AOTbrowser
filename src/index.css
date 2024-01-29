@@ -1,0 +1,67 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0; /* Remover margem padrão */
+  padding: 0; /* Remover preenchimento padrão */
+  overflow-x: hidden; /* Ocultar rolagem horizontal */
+  overflow-y: hidden; /* Ocultar rolagem vertical */
+}
+
+webview {
+  width: 100%;
+  height: 100vh; /* Usar 100% da altura da janela */
+  margin: 0; /* Remover margem */
+  padding: 0; /* Remover preenchimento */
+  border: none; /* Remover borda */
+}
+
+
+#button-container{
+  display: contents;
+}
+
+#house{
+  padding-right: 17px;
+  flex: 1;
+  color: rgba(42, 42, 42, 0.95); /* Cor do ícone com transparência ajustada */
+
+}
+
+
+
+#reload {
+  flex: none; /* Remover a flexibilidade para que o botão não cresça */
+  cursor: pointer;
+  padding: 6px, 6px, 0, 6px; /* Adicione um preenchimento uniforme */
+  background-color: none; /* Remova o fundo */
+  border: none; /* Remova a borda */
+}
+
+
+#back{
+  margin-left: 30px;
+}
+
+#url-input{
+  width: 70vw;
+  display: flex;
+  flex: 1;
+  padding: 3px;
+  margin-right: 10px;
+  background-color: rgb(219, 219, 219);
+  border: none;
+  border-radius: 5px;
+
+}
+
+#Browser-tools{
+  background-color: rgb(229, 230, 231);
+  padding: 5px;
+}
+
+webview {
+  width: 100%; /* Define a largura para 100% */
+  height: 100vh;
+  flex: 1; /* Permite que o webview cresça conforme a largura da janela */
+  overflow: hidden; /* Opcional: oculta a barra de rolagem horizontal */
+}
